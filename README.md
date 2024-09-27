@@ -12,6 +12,7 @@ Lower value (i.e. a negative number) of Evaluation means Black has a higher chan
 Evaluation of 0 means a somewhat equal position, very high chances of a draw if both players play ideally.
 
 An example output uses the board.png as a legal chess position in this case.
+
 ![board](https://github.com/user-attachments/assets/782f135c-67f7-4ced-a68e-7401be74c6cf)
 
 
