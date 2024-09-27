@@ -12,7 +12,8 @@ Lower value (i.e. a negative number) of Evaluation means Black has a higher chan
 Evaluation of 0 means a somewhat equal position, very high chances of a draw if both players play ideally.
 
 An example output uses the board.png as a legal chess position in this case.
-![output](https://github.com/user-attachments/assets/b624885c-677a-4160-8c4e-a04134e195ed)
+![board](https://github.com/user-attachments/assets/782f135c-67f7-4ced-a68e-7401be74c6cf)
+
 
 The StockFish Engine at a depth of 30, gives the evaluation of the position as
 1. White to play
