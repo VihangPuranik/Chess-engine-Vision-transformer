@@ -30,3 +30,13 @@ The StockFish Engine at a depth of 30, gives the evaluation of the position as
 
 On the other hand, the model has predicted the following evaluation for the same position.
 ![download](https://github.com/user-attachments/assets/b541abe6-69e9-4a60-acda-340c19e5040d)
+
+The other notebook has another model implemented, with a CNN layer processing the input board configuration
+over a vision transformer network. So, the model takes 6 channels of information in the form of bit-boards
+and then works over the generated embeddings instead of a classic 3 channel input image.
+
+As such the model is trained to give scores favoring the either player, similar to the model described above.
+The model trained thusly has yielded a somewhat worse performance, by underestimating the evaluation scores of
+the current position. Yet the scores are indicating the situation favors black as is expected by the situation.
+
+![output2](https://github.com/user-attachments/assets/fd93d772-2244-415b-bb70-3077a3e9e745)
